@@ -79,7 +79,7 @@ const Navbar = () => {
             {items.map((item) => (
               <Link
                 key={item.href}
-                to={item.href}
+                href={item.href}
                 className={`w-full px-4 py-2 rounded-md ${
                   currentPath === item.href
                     ? "bg-gray-700"
