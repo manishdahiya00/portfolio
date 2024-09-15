@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import isAuthenticated from "@/app/api/login/admin/route";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
